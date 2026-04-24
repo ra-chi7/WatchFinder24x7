@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchFinder24x7 | Time, Defined.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== NAVBAR ===================== -->
+    <nav class="nav" id="navbar">
+        <a href="#" class="nav__logo">Watch<span>Finder</span><em>24x7</em></a>
+        <ul class="nav__links" id="navLinks">
+            <li><a href="#brands">Brands</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact" class="nav__cta">Contact Us</a></li>
+        </ul>
+        <button class="nav__hamburger" id="menuBtn" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <p class="hero__eyebrow">India's Watch Discovery Platform</p>
+            <h1 class="hero__title">Discover Watches<br><span>Built for Every Wrist</span></h1>
+            <p class="hero__sub">Curated collections from the world's top watch brands — all in one place.</p>
+            <div class="hero__actions">
+                <a href="#trending" class="btn-primary">Explore Collection</a>
+                <a href="#brands" class="btn-ghost">View Brands</a>
+            </div>
+        </div>
+        <div class="hero__scroll-hint">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ===================== BRANDS ===================== -->
+    <section class="section" id="brands">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Our Partners</p>
+                <h2 class="section-title">Trusted Brands We Feature</h2>
+                <p class="section-sub">Direct access to official collections from the world's finest watchmakers.</p>
+            </div>
+            <div class="brands-grid">
+                <a href="https://www.apple.com/in/watch/" target="_blank" class="brand-card reveal">
+                    <i class="fab fa-apple brand-card__icon"></i>
+                    <span>Apple</span>
+                </a>
+                <a href="https://www.samsung.com/in/mobile-accessories/all-mobile-accessories/?galaxy-watch=true" target="_blank" class="brand-card reveal">
+                    <i class="fas fa-mobile-alt brand-card__icon"></i>
+                    <span>Samsung</span>
+                </a>
+                <a href="https://www.titan.co.in/watches" target="_blank" class="brand-card reveal">
+                    <i class="fas fa-clock brand-card__icon"></i>
+                    <span>Titan</span>
+                </a>
+                <a href="https://www.fossil.com/en-in/watches/" target="_blank" class="brand-card reveal">
+                    <i class="fas fa-stopwatch brand-card__icon"></i>
+                    <span>Fossil</span>
+                </a>
+                <a href="https://in.nothing.tech/collections/watches" target="_blank" class="brand-card reveal">
+                    <i class="fas fa-dot-circle brand-card__icon"></i>
+                    <span>Nothing CMF</span>
+                </a>
+                <a href="https://goboult.co.in/" target="_blank" class="brand-card reveal">
+                    <i class="fas fa-bolt brand-card__icon"></i>
+                    <span>GoBoult</span>
+                </a>
+                <a href="https://www.fastrack.in/watches.html" target="_blank" class="brand-card reveal">
+                    <i class="fas fa-running brand-card__icon"></i>
+                    <span>Fastrack</span>
+                </a>
+                <a href="https://www.rolex.com" target="_blank" class="brand-card reveal">
+                    <i class="fas fa-crown brand-card__icon"></i>
+                    <span>Rolex</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CATEGORIES ===================== -->
+    <section class="section section--dark" id="categories">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Browse</p>
+                <h2 class="section-title">Find Your Style</h2>
+                <p class="section-sub">Whatever your lifestyle, there's a perfect timepiece waiting for you.</p>
+            </div>
+            <div class="grid-3">
+                <div class="category-card reveal">
+                    <div class="category-card__img">
+                        <img src="https://images.unsplash.com/photo-1434493907317-a46b53b81822?auto=format&fit=crop&w=600&q=80" alt="Smartwatch">
+                        <div class="category-card__overlay">
+                            <a href="#trending" class="btn-primary btn--sm">View Watches</a>
+                        </div>
+                    </div>
+                    <div class="category-card__body">
+                        <h3>Smartwatches</h3>
+                        <p>Health tracking, notifications, and style — all on your wrist.</p>
+                    </div>
+                </div>
+                <div class="category-card reveal">
+                    <div class="category-card__img">
+                        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=600&q=80" alt="Luxury Watch">
+                        <div class="category-card__overlay">
+                            <a href="#trending" class="btn-primary btn--sm">View Watches</a>
+                        </div>
+                    </div>
+                    <div class="category-card__body">
+                        <h3>Luxury Classics</h3>
+                        <p>Timeless craftsmanship. Watches that tell more than just time.</p>
+                    </div>
+                </div>
+                <div class="category-card reveal">
+                    <div class="category-card__img">
+                        <img src="https://images.unsplash.com/photo-1526045431048-f857369baa09?auto=format&fit=crop&w=600&q=80" alt="Casual Watch">
+                        <div class="category-card__overlay">
+                            <a href="#trending" class="btn-primary btn--sm">View Watches</a>
+                        </div>
+                    </div>
+                    <div class="category-card__body">
+                        <h3>Casual & Budget</h3>
+                        <p>Great style without the premium price tag. Quality for everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== WHY US ===================== -->
+    <section class="section" id="why-us">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Our Promise</p>
+                <h2 class="section-title">Why WatchFinder24x7?</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card reveal">
+                    <div class="why-card__icon"><i class="fas fa-gem"></i></div>
+                    <h3>Handpicked Collections</h3>
+                    <p>Every brand and model is carefully curated for quality, style, and value. No noise — only the best.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-card__icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Genuine Products Only</h3>
+                    <p>All links lead directly to official brand stores. Zero third-party grey market risk.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-card__icon"><i class="fas fa-balance-scale"></i></div>
+                    <h3>Compare Before You Buy</h3>
+                    <p>Explore brands side by side. Make informed decisions without the sales pressure.</p>
+                </div>
+                <div class="why-card reveal">
+                    <div class="why-card__icon"><i class="fas fa-headset"></i></div>
+                    <h3>Always Available</h3>
+                    <p>WatchFinder24x7 — we're here any time you need guidance on your next timepiece.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TRENDING ===================== -->
+    <section class="section section--dark" id="trending">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Hot Right Now</p>
+                <h2 class="section-title">Trending Collections</h2>
+                <p class="section-sub">The most-searched and most-loved watches this season.</p>
+            </div>
+            <div class="grid-4">
+
+                <div class="watch-card reveal" data-brand="apple series 10 smartwatch">
+                    <div class="watch-card__img-wrap">
+                        <img src="https://images.unsplash.com/photo-1434493907317-a46b53b81822?auto=format&fit=crop&w=600&q=80" alt="Apple Watch Series 10">
+                        <div class="watch-card__badge">Bestseller</div>
+                    </div>
+                    <div class="watch-card__info">
+                        <span class="watch-card__category">Smartwatch</span>
+                        <h3>Apple Watch Series 10</h3>
+                        <p>The most advanced Apple Watch yet. Health, fitness, and style.</p>
+                        <div class="watch-card__footer">
+                            <span class="watch-card__price">From ₹41,900</span>
+                            <a href="https://www.apple.com/in/watch/" target="_blank" class="btn-primary btn--sm">Visit Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="watch-card reveal" data-brand="samsung galaxy watch ultra smartwatch">
+                    <div class="watch-card__img-wrap">
+                        <img src="https://images.unsplash.com/photo-1508685096489-77a46807e01d?auto=format&fit=crop&w=600&q=80" alt="Samsung Galaxy Watch">
+                        <div class="watch-card__badge watch-card__badge--new">New</div>
+                    </div>
+                    <div class="watch-card__info">
+                        <span class="watch-card__category">Smartwatch</span>
+                        <h3>Samsung Galaxy Watch Ultra</h3>
+                        <p>Rugged. Powerful. Built for adventures as bold as you are.</p>
+                        <div class="watch-card__footer">
+                            <span class="watch-card__price">From ₹59,999</span>
+                            <a href="https://www.samsung.com/in/mobile-accessories/all-mobile-accessories/?galaxy-watch=true" target="_blank" class="btn-primary btn--sm">Visit Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="watch-card reveal" data-brand="nothing cmf pro minimalist smartwatch">
+                    <div class="watch-card__img-wrap">
+                        <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=600&q=80" alt="Nothing CMF Watch">
+                    </div>
+                    <div class="watch-card__info">
+                        <span class="watch-card__category">Minimalist</span>
+                        <h3>Nothing CMF Watch Pro 2</h3>
+                        <p>Stripped down. Dialled up. Minimalism meets modern functionality.</p>
+                        <div class="watch-card__footer">
+                            <span class="watch-card__price">From ₹4,999</span>
+                            <a href="https://in.nothing.tech/collections/watches" target="_blank" class="btn-primary btn--sm">Visit Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="watch-card reveal" data-brand="titan edge luxury classic analog">
+                    <div class="watch-card__img-wrap">
+                        <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=600&q=80" alt="Titan Edge">
+                        <div class="watch-card__badge watch-card__badge--gold">Icon</div>
+                    </div>
+                    <div class="watch-card__info">
+                        <span class="watch-card__category">Luxury Classic</span>
+                        <h3>Titan Edge</h3>
+                        <p>The world's slimmest watch. A true icon of Indian craftsmanship.</p>
+                        <div class="watch-card__footer">
+                            <span class="watch-card__price">From ₹8,995</span>
+                            <a href="https://www.titan.co.in/watches" target="_blank" class="btn-primary btn--sm">Visit Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="watch-card reveal" data-brand="fossil gen 6 smartwatch leather">
+                    <div class="watch-card__img-wrap">
+                        <img src="https://images.unsplash.com/photo-1526045431048-f857369baa09?auto=format&fit=crop&w=600&q=80" alt="Fossil Gen 6">
+                    </div>
+                    <div class="watch-card__info">
+                        <span class="watch-card__category">Smart Classic</span>
+                        <h3>Fossil Gen 6</h3>
+                        <p>Classic leather looks meet Wear OS intelligence. Best of both worlds.</p>
+                        <div class="watch-card__footer">
+                            <span class="watch-card__price">From ₹22,495</span>
+                            <a href="https://www.fossil.com/en-in/watches/" target="_blank" class="btn-primary btn--sm">Visit Store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="watch-card reveal" data-brand="goboult mustang stallion budget smartwatch">
+                    <div class="watch-card__img-wrap">
+                        <img src="https://picsum.photos/id/175/600/400" alt="GoBoult Mustang">
+                        <div class="watch-card__badge">Value Pick</div>
+                    </div>
+                    <div class="watch-card__info">
+                        <span class="watch-card__category">Budget Smart</span>
+                        <h3>GoBoult Mustang</h3>
+                        <p>Aggressive design. Aggressive pricing. No compromise on the essentials.</p>
+                        <div class="watch-card__footer">
+                            <span class="watch-card__price">From ₹1,799</span>
+                            <a href="https://goboult.co.in/" target="_blank" class="btn-primary btn--sm">Visit Store</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Search bar -->
+            <div class="search-wrap reveal">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="watchSearch" placeholder="Search by brand, type, or name..." onkeyup="filterWatches()">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===================== COMPARISON TABLE ===================== -->
+    <section class="section" id="compare">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Quick Compare</p>
+                <h2 class="section-title">Find the Right Watch for You</h2>
+            </div>
+            <div class="table-wrap reveal">
+                <table class="compare-table">
+                    <thead>
+                        <tr>
+                            <th>Watch</th>
+                            <th>Type</th>
+                            <th>Price Range</th>
+                            <th>Best For</th>
+                            <th>Battery</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Apple Watch S10</strong></td>
+                            <td>Smartwatch</td>
+                            <td>₹41,900+</td>
+                            <td>iPhone users, health tracking</td>
+                            <td>~18 hrs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Samsung Galaxy Watch Ultra</strong></td>
+                            <td>Smartwatch</td>
+                            <td>₹59,999+</td>
+                            <td>Android users, outdoor sports</td>
+                            <td>~60 hrs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nothing CMF Watch Pro 2</strong></td>
+                            <td>Minimalist Smart</td>
+                            <td>₹4,999+</td>
+                            <td>Budget buyers, style seekers</td>
+                            <td>~7 days</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Titan Edge</strong></td>
+                            <td>Luxury Analog</td>
+                            <td>₹8,995+</td>
+                            <td>Formal wear, gifting</td>
+                            <td>N/A (quartz)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fossil Gen 6</strong></td>
+                            <td>Smart Classic</td>
+                            <td>₹22,495+</td>
+                            <td>Style + smart features</td>
+                            <td>~24 hrs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GoBoult Mustang</strong></td>
+                            <td>Budget Smart</td>
+                            <td>₹1,799+</td>
+                            <td>First smartwatch buyers</td>
+                            <td>~5 days</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section section--dark" id="about">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about__img reveal">
+                    <img src="https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?auto=format&fit=crop&w=800&q=80" alt="About WatchFinder24x7">
+                    <div class="about__img-badge">
+                        <strong>500+</strong>
+                        <span>Watch Models</span>
+                    </div>
+                </div>
+                <div class="about__text reveal">
+                    <p class="section-eyebrow">Our Story</p>
+                    <h2 class="section-title">Who We Are</h2>
+                    <p>WatchFinder24x7 was born from a simple frustration — too many watches, too many sites, too little guidance. We built one destination where watch lovers in India can discover, compare, and connect to the world's finest timepieces.</p>
+                    <p>From the sleekest smartwatch to the most timeless analog classic, we curate only the best — and link you directly to the official source. No middlemen. No grey market. Just great watches.</p>
+                    <div class="about__stats">
+                        <div class="stat">
+                            <strong>50+</strong>
+                            <span>Brands</span>
+                        </div>
+                        <div class="stat">
+                            <strong>500+</strong>
+                            <span>Models</span>
+                        </div>
+                        <div class="stat">
+                            <strong>24x7</strong>
+                            <span>Available</span>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-primary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS ===================== -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">What People Say</p>
+                <h2 class="section-title">Real Reviews, Real Buyers</h2>
+            </div>
+            <div class="grid-3">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-card__stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Found my Titan Edge through WatchFinder24x7. The comparison table made choosing so easy. Bought it directly from Titan's site — completely legit."</p>
+                    <div class="testimonial-card__author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <strong>Rohan Mehta</strong>
+                            <span>Mumbai</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-card__stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best watch discovery platform I've used. Clean, honest, no fake reviews. Just real info and direct brand links. Ordered my Samsung Watch Ultra last week."</p>
+                    <div class="testimonial-card__author">
+                        <div class="author-avatar">P</div>
+                        <div>
+                            <strong>Priya Sharma</strong>
+                            <span>Bengaluru</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-card__stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Gifted my dad a Fossil watch for his birthday — found the perfect one here. The category filter made it super simple to find something in my budget."</p>
+                    <div class="testimonial-card__author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <strong>Arjun Kulkarni</strong>
+                            <span>Pune</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FAQ ===================== -->
+    <section class="section section--dark" id="faq">
+        <div class="container container--narrow">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Got Questions?</p>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item reveal">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">
+                        Do you sell watches directly?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>No. WatchFinder24x7 is a discovery and comparison platform. We connect you directly to official brand stores like Apple.com, Samsung.com, Titan.co.in, and others. All purchases happen on the brand's official website.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">
+                        Are all the brands and products genuine?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Absolutely. Every link on WatchFinder24x7 points to official brand websites. We do not feature third-party resellers, grey market sellers, or unverified sources.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">
+                        Is WatchFinder24x7 free to use?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Yes, completely free. Browse brands, compare models, and explore collections at no cost. No registration required.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">
+                        How do I find the best watch for my budget?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Use our comparison table to filter by price range. You can also browse by category — Smartwatch, Luxury Classic, or Budget — to narrow down the options quickly.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal">
+                    <button class="faq-item__question" onclick="toggleFaq(this)">
+                        Can I suggest a brand or watch to be added?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-item__answer">
+                        <p>Yes! Use the contact form below or reach out via WhatsApp. We love hearing from the community and are always looking to add great new brands.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact">
+        <div class="container container--narrow">
+            <div class="section-header reveal">
+                <p class="section-eyebrow">Talk to Us</p>
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-sub">Questions about a watch? Want a recommendation? We're here 24x7.</p>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-form reveal">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Rohan Mehta">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="rohan@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Watch recommendation needed">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Tell us what you're looking for..."></textarea>
+                    </div>
+                    <button class="btn-primary btn--full" onclick="handleSubmit()">Send Message <i class="fas fa-paper-plane"></i></button>
+                    <div id="formMsg" class="form-msg" style="display:none;"></div>
+                </div>
+                <div class="contact-sidebar reveal">
+                    <div class="contact-info-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>Always Available</h4>
+                        <p>We're online 24 hours a day, 7 days a week — just like our name says.</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Based in India</h4>
+                        <p>Proudly serving watch lovers across India with curated brand collections.</p>
+                    </div>
+                    <a href="https://wa.me/919999999999" target="_blank" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat on WhatsApp
+                    </a>
+                    <div class="trust-badges">
+                        <div class="trust-badge"><i class="fas fa-lock"></i> Secure Redirects</div>
+                        <div class="trust-badge"><i class="fas fa-check-circle"></i> Official Brands Only</div>
+                        <div class="trust-badge"><i class="fas fa-star"></i> Verified Reviews</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="#" class="nav__logo">Watch<span>Finder</span><em>24x7</em></a>
+                    <p>India's trusted watch discovery platform. Connecting buyers to the world's finest timepieces — officially.</p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://wa.me/919999999999" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#brands">Brands</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#trending">Trending</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Top Brands</h4>
+                    <ul>
+                        <li><a href="https://www.apple.com/in/watch/" target="_blank">Apple Watch</a></li>
+                        <li><a href="https://www.samsung.com/in/mobile-accessories/all-mobile-accessories/?galaxy-watch=true" target="_blank">Samsung Galaxy</a></li>
+                        <li><a href="https://www.titan.co.in/watches" target="_blank">Titan</a></li>
+                        <li><a href="https://www.fossil.com/en-in/watches/" target="_blank">Fossil</a></li>
+                        <li><a href="https://in.nothing.tech/collections/watches" target="_blank">Nothing CMF</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Newsletter</h4>
+                    <p>Get new watch drops and deals in your inbox.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn-primary btn--sm">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 WatchFinder24x7. All rights reserved.</p>
+                <p class="footer__disclaimer">Not affiliated with any brand listed. All trademarks belong to respective owners.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/919999999999" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script>
+        // ── Navbar scroll effect ──
+        window.addEventListener('scroll', () => {
+            const nav = document.getElementById('navbar');
+            nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+
+            const btn = document.getElementById('backToTop');
+            btn.classList.toggle('visible', window.scrollY > 400);
+        });
+
+        // ── Hamburger menu ──
+        document.getElementById('menuBtn').addEventListener('click', function() {
+            const links = document.getElementById('navLinks');
+            links.classList.toggle('open');
+            this.classList.toggle('active');
+        });
+
+        // ── Close menu on link click (mobile) ──
+        document.querySelectorAll('.nav__links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('navLinks').classList.remove('open');
+                document.getElementById('menuBtn').classList.remove('active');
+            });
+        });
+
+        // ── Scroll reveal ──
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+        // ── Watch card search filter ──
+        function filterWatches() {
+            const input = document.getElementById('watchSearch').value.toLowerCase();
+            document.querySelectorAll('.watch-card').forEach(card => {
+                const brand = card.getAttribute('data-brand') || '';
+                card.style.display = brand.includes(input) ? 'flex' : 'none';
+            });
+        }
+
+        // ── FAQ accordion ──
+        function toggleFaq(btn) {
+            const item = btn.parentElement;
+            const isOpen = item.classList.contains('open');
+            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+            if (!isOpen) item.classList.add('open');
+        }
+
+        // ── Contact form submit (UI only) ──
+        function handleSubmit() {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const msg = document.getElementById('message').value.trim();
+            const msgBox = document.getElementById('formMsg');
+
+            if (!name || !email || !msg) {
+                msgBox.textContent = 'Please fill in all required fields.';
+                msgBox.className = 'form-msg form-msg--error';
+                msgBox.style.display = 'block';
+                return;
+            }
+            msgBox.textContent = '✓ Message sent! We\'ll get back to you within 24 hours.';
+            msgBox.className = 'form-msg form-msg--success';
+            msgBox.style.display = 'block';
+            document.getElementById('name').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('subject').value = '';
+            document.getElementById('message').value = '';
+        }
+    </script>
+</body>
+</html>
